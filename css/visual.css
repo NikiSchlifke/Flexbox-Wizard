@@ -1,0 +1,36 @@
+/* Static CSS to test visualisation implementation*/
+/* Everything inside the visual will have a margin to highlight the nesting*/
+#visual * {
+    padding: 6px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+/* Each level will have a different clearly distinguishable color */
+#visual > * {
+    color: blue;
+}
+
+#visual > * > * {
+    color: orange;
+}
+
+#visual > * > * > * {
+    color: greenyellow;
+}
+
+#visual > * > * > * > * {
+    color: fuchsia;
+}
+
+#visual > * > * > * > * > * {
+    color: darkcyan;
+}
+
+#visual > * > * > * > * > * > * {
+    color: orangered;
+}
+
+#visual > * > * > * > * > * > * > * {
+    color: olive;
+}
