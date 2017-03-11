@@ -1,5 +1,10 @@
 /* Static CSS to test visualisation implementation*/
 /* Everything inside the visual will have a margin to highlight the nesting*/
+#visual {
+    width: 700px;
+    height: 700px;
+}
+
 #visual * {
     padding: 6px;
     border-style: solid;
