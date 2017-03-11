@@ -3,8 +3,14 @@
 <head>
 	<meta charset="UTF-8">
 	<title>FelxBox Wizard</title>
-	<!-- css links -->
+	<!-- links to Bootstrap 4 CDN before other stylesheets-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<!-- links to Internal css files -->
 	<link rel="stylesheet" href="css/visual.css">
+	<link rel="stylesheet" href="css/elements.css">
+	<!-- google liberary j-Query links  -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 </head>
 <!-- 
 	This is the framework for an online HTML & CSS code generator from graphical represitation of flexbox design in HTML5...
@@ -20,8 +26,12 @@
 	</nav>
 	<main class="container">
 		<section class="row">
-			<div id="visual"></div>
-			<div id="elements"></div>
+			<div id="visual flexbox"></div>
+			<div id="elements flexbox" >
+				<div id="divElement">
+					<p>New Div</p>
+				</div>
+			</div>
 		</section>
 		<section class="row">
 			<div id="codeHTML"></div>
